@@ -1,0 +1,137 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@300;500&display=swap');
+
+.mensajeria {
+    display: flex;
+}
+
+
+/* SECCION CONTACTOS */
+
+
+.contactos {
+   
+    width: 20vw;
+    border: solid 1px rgb(226, 226, 226);
+    height: 100vh;
+}
+
+.chat_maria {
+    display: flex;
+    border: solid 1px rgb(226, 226, 226);
+}
+
+.maria{
+    display: flex;
+}
+
+
+.maria img {
+    margin: 6%;
+    width: 15%;
+    border-radius: 50%;
+    
+}
+.nombre {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 14px;
+    margin: 20% 0 6 5%; 
+}
+
+.estado {
+    color: #b5b9af;
+    font-size: 12px;
+    
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    margin: 0 5% 0 5%;
+    padding: 10px;
+}
+
+.icono1 {
+    margin: 0 15% 0 15%;
+}
+
+.icono2 {
+    margin: 0 15% 0 20%;
+}
+.botonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12%;
+    color: #A491D2 ;
+    border: solid 1px rgb(226, 226, 226);
+}
+
+.botonNuevoChat {
+    color: #fff ;
+    background-color:#A491D2 ;
+    height: 50%;
+    width: 50%;
+    border:0
+
+}
+
+.inactivo {
+    display:flex;
+    border: solid 1px rgb(226, 226, 226);
+    }
+
+.inactivo img {
+    border-radius: 50%;
+    margin:6%;
+    width: 10%;
+}
+
+.nombre_estado {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+
+
+.estado_inactivo {
+    color: #141414;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 12px;
+    align-items: left;
+}
+
+/* SECCION PRINCIPAL */
+
+.principal {
+    width: 80vw;
+    height: 100vh;
+    background-color: #E8EBE4;
+}
+
+.logo-img {
+    display: flex;
+    justify-content: center;
+}
+.logo-img img {
+    padding-top: 15%;
+    width: 25%;
+    height: auto;
+}
+
+.parrafos-logo {
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+
+}
+.parrafos-logo p {
+    font-size: 14px;
+}
+    
+    
